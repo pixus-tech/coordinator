@@ -16,5 +16,13 @@ setup().then(RadiksController => {
   app.use('/radiks', RadiksController);
 });
 
+
+app.get('/ping', function (req, res) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'origin, content-type');
+  res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.json({ status: 'alive' });
+});
+
 // we will pass our 'app' to 'https' server
 app.server.listen(1260, '0.0.0.0');

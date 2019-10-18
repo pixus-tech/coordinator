@@ -11,6 +11,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-ws": "^4.0.0",
-    "radiks-server": "^0.2.0"
+    "radiks-server": "^0.2.3"
   }
 }
