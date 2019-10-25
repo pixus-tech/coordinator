@@ -1,0 +1,7 @@
+{
+  "name": "pixus central coordinator",
+  "description": "Central coordinator for sharing features in pixus.",
+  "repository": "https://github.com/tomknig/pixus-server",
+  "keywords": ["node", "express", "radiks"],
+  "image": "heroku/nodejs"
+}
