@@ -2,7 +2,6 @@
 
 ## Development
 
-`npm install` installs the dependencies
-
-`npm start` start the development server. Make sure you have mongodb running
-before you start the development server.
+- Add `127.0.0.1 pixus.local` to your `/etc/hosts` file.
+- Generate certificates for local development with`./bin/generate-certificates.sh`
+- Start the server with `docker-compose up`

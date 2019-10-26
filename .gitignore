@@ -1,1 +1,4 @@
 node_modules
+config/*.crt
+config/*.key
+data
