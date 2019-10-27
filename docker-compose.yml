@@ -36,6 +36,7 @@ services:
       - ./config/nginx.dev.conf:/etc/nginx/conf.d/default.conf
       - ./config/pixus.crt:/etc/nginx/pixus.crt
       - ./config/pixus.key:/etc/nginx/pixus.key
+      - ./config/ssl_passwords:/etc/nginx/ssl_passwords
     ports:
       - 1260:1260
     command: /bin/bash -c "exec nginx -g 'daemon off;'"
