@@ -3,4 +3,5 @@ branch-defaults:
     environment: PixusServer-env
 global:
   application_name: pixus-server
+  default_region: eu-central-1
   sc: git
