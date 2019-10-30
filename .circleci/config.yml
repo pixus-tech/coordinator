@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Deploy to EB
           command: |
-            eb deploy PixusServer-env
+            eb deploy pixus-server-production
 
 workflows:
   version: 2
