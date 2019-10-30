@@ -1,0 +1,6 @@
+branch-defaults:
+  master:
+    environment: PixusServer-env
+global:
+  application_name: pixus-server
+  sc: git
