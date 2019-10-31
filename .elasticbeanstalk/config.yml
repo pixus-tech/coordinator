@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: pixus-server-production
+    environment: production
 global:
   application_name: pixus-server
   default_region: eu-central-1
