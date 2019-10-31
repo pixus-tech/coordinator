@@ -23,7 +23,7 @@ app.get('/ping', function (req, res) {
 })
 
 if (isProduction) {
-  server.use(function(req, res, next) {
+  app.use(function(req, res, next) {
     res.header('Access-Control-Allow-Origin', 'pixus.tech')
     res.header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE, PATCH, POST')
     res.header('Access-Control-Allow-Headers', '*')
