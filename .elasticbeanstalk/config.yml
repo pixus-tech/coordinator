@@ -1,7 +1,0 @@
-branch-defaults:
-  master:
-    environment: pixus-prod
-global:
-  application_name: pixus-server
-  default_region: eu-central-1
-  sc: git
