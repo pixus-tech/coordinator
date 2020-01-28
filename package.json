@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest",
+    "test": "node_modules/.bin/jest",
     "test:watch": "jest --watch true",
     "update": "npm-check --update"
   },
