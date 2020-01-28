@@ -15,7 +15,6 @@ jobs:
           paths:
             - node_modules
           key: v2-dependencies-{{ checksum "package.json" }}
-      - run: npm test
   deploy:
     docker:
       - image: buildpack-deps:trusty
